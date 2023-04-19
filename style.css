@@ -1,0 +1,67 @@
+html {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: x-large;
+}
+
+h1,
+h2,
+h4,
+p,
+form {
+    margin-left: 30px;
+    /* text-align: center; */
+}
+
+
+body {
+    background-color: #c5c4ff;
+}
+
+
+.inpcont {
+    padding: 5px;
+    background-color: rgb(198, 239, 239);
+    border-radius: 5px;
+}
+
+.tar {
+    display: block;
+    
+    
+}
+
+.btn {
+    display: inline-block;
+    margin: 20px;
+    margin-left: 10px;
+    padding: 10px;
+    background-color: rgb(247, 148, 128);
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: medium;
+    border-radius: 8px;
+    cursor: pointer;
+    opacity: 1;
+    transition: 0.6s;
+}
+
+.btn:hover {
+    background-color: aqua;
+}
+
+.mainhead::before{
+    content: "";
+    background: url(https://images.shiksha.com/mediadata/images/1494566683phpZgcM81.jpeg);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -300px;
+    left: 27px;
+    width: 100%;
+    height: 69%;
+    z-index: -1;
+    opacity: 0.5;
+}
+.btns{
+    display: flex;
+    flex-flow: row;
+}

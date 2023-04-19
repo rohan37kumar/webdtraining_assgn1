@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Form - ASSIGNMENT-1</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <h1 class="mainhead">SIMPLIFY Training</h1>
+    <h2>Internship Application Form</h2>
+    <h4>Fill the Form carefully.</h4>
+    <p>Fields marked * are compulsory</p>
+    <form action="form.php">
+        Name: <input class="inpcont" type="text" placeholder="*Enter your Name*"><br><br>
+        Email ID: <input class="inpcont" type="email" placeholder="*Enter your email*"><br><br>
+        Contact No: <input class="inpcont" type="number" placeholder="*Enter your Contact No*"><br><br>
+        <label for="dob">D.O.B: </label>
+        <input class= "dob" type="date" name="dob">
+        <br><br>
+        Gender:
+        <label for="xyz">
+            <input type="radio" value="Male" name="gender">Male
+            <input type="radio" value="Female" name="gender">Female
+        </label><br><br>
+        Experience: <br>
+        <textarea class="tar" name="exp" cols="30" rows="5" placeholder="Enter if any(optional)"></textarea>
+        <div class="btns">
+            <button class="btn">Submit</button>
+            <button class="btn">Reset</button>
+        </div>
+
+    </form>
+
+    
+</body>
+
+</html>
